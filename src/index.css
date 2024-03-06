@@ -1,0 +1,41 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --lightgray: #aeb5bf;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #6583bf; */
+  background-color: #BFBFBF;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: 292px 292px 292px ;
+  /* grid-template-columns: 292px 292px 292px ; */
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 30px;
+}
+
+.nav {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* .right-detail-container {
+  height: 100%;
+} */
+
+
